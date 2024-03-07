@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -10,7 +10,7 @@ body{
 h1{
     display: inline;
     font-size: 52px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
@@ -40,12 +40,12 @@ img{
 }
 
 button{
-    padding: 5px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold ;
     padding: 10px;
-    margin-top: 13px 
+    margin-top: 13px;
+    border: solid;
 }
 
 #add-task{
@@ -57,7 +57,8 @@ button{
 #add-section{
     background-color: white;
     color: #c9cfd3;
-    border-color: #c9cfd3; 
+    border-color: #c9cfd3;
+    border: 1px solid;
     
 }
 
@@ -79,6 +80,7 @@ section{
 li{
   display: flex;
   font-size: 22px;
+  margin: 17px;
 }
 
 .content{
@@ -152,4 +154,32 @@ li{
     font-size: 12px;
     text-align: center;
     padding: 8px;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #73c7b3;
+    border: 1px solid;
+    border-radius: 100%;
+    height: 22px;
+    width: 22px;
+    
+}
+
+.cross{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+    color: #ea463c;
+    border: 1px solid;
+    border-radius: 100%;
+    font-size: 30px;
+    
+    
 }
