@@ -98,3 +98,14 @@ li{
 .today{
     padding-top: 30px;
 }
+
+.goals{
+    margin-left: 5px;
+    background-color: #9c72e4;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
