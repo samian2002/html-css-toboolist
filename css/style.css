@@ -109,3 +109,47 @@ li{
     padding: 8px;
 }
 
+.recruiting{
+    margin-left: 5px;
+    background-color: #64c0a9;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+.mobile{
+    margin-left: 5px;
+    background-color: #f29e33;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.upcoming{
+    padding-top: 30px;
+}
+
+.website{
+    margin-left: 5px;
+    background-color: #d863a1;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+}
+
+.sales{
+    margin-left: 5px;
+    background-color: #b0c926;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+}
